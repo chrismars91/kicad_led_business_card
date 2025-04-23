@@ -1,0 +1,135 @@
+(footprint "LTST-BILED-15X16"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0254 1.9304 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "adb9b923-1328-42a8-8c5e-f82dcb43d0cb")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LTST-BILED-15X16"
+		(at 0.0254 -1.9812 0)
+		(layer "F.Fab")
+		(uuid "8a7e1083-a745-4e75-b380-378fc0558c85")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa94b69f-ae0e-4c6c-a0bd-09d8fe93af72")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e60a351e-e4f5-4d43-903d-372a96676790")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9450d95d-0565-45a9-952b-31c2212118db")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.127 0)
+		(end 0.127 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4eb89903-04ba-4ff2-b42c-8935d9c6ad40")
+	)
+	(fp_line
+		(start 0 0.127)
+		(end -0.127 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "752a177a-c2d5-4e94-9681-4012737f5cb8")
+	)
+	(fp_line
+		(start 0.127 0)
+		(end 0 0.127)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "038fa11f-2295-4192-b89c-4b6ee9221fa0")
+	)
+	(pad "1" smd rect
+		(at 0.525 -0.725)
+		(size 0.45 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "897e5990-9c00-4838-a5de-b7222c7c35f6")
+	)
+	(pad "2" smd rect
+		(at 0.525 0.725)
+		(size 0.45 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "8998e40c-b763-4528-b82f-14d327a3770a")
+	)
+	(pad "3" smd rect
+		(at -0.525 -0.725)
+		(size 0.45 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "91adacc2-b814-443d-af95-3a9414ee861d")
+	)
+	(pad "4" smd rect
+		(at -0.525 0.725)
+		(size 0.45 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2ee53a07-a3b4-4219-8e8f-d2c878742ca1")
+	)
+	(model "/Users/chrisbolig/Downloads/LTST-C195KGJRKT.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
